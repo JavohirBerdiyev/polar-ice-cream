@@ -687,6 +687,10 @@ body{
     border: none;
 }
 
+.email-input:focus{
+    outline: none;
+}
+
 .email__btn{
     padding: 28px 46px;
     font-family: Roboto;
