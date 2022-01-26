@@ -83,6 +83,10 @@ body{
     background-color: #f8edf0;
 }
 
+.heading-hidden{
+    display: none;
+}
+
 .container{
     width: 1140px;
     padding: 0 10px;
@@ -472,11 +476,11 @@ body{
     flex-direction: row-reverse;
 }
 
-.customer{
+.customer-info{
     margin-bottom: 46px;
 }
 
-.customer::before{
+.customer-info::before{
     content: '';
     display: block;
     background-image: url('/img/customer.jpg');
@@ -715,7 +719,7 @@ body{
     margin-right: 37px;
 }
 
-.siste-footer__logo{
+.site-footer__logo{
     margin-bottom: 9px;
 }
 
