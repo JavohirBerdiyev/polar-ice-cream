@@ -140,7 +140,7 @@ body{
 .btn:hover{
     color: #d23166;
     background-color: transparent;
-    outline: 1px solid #d23166;
+    outline: 2px solid #d23166;
 }
 
 /* HEADER END */
@@ -679,7 +679,7 @@ body{
     position: relative;
 }
 
-input[type="email"]{
+.email-input{
     width: 637px;
     padding: 30px;
     background: #fafafa;
@@ -700,3 +700,121 @@ input[type="email"]{
 
 /* EMAIL END */
 /* FOOTER START */
+
+.site-footer{
+    background: #0a0808;
+    padding: 70px 0 104px;
+}
+
+.site-footer__intro{
+    width: 207px;
+    margin-right: 37px;
+}
+
+.siste-footer__logo{
+    margin-bottom: 9px;
+}
+
+.site-footer__text{
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.social__title{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.social__list{
+    list-style: none;
+}
+
+.social__item:not(:last-child){
+    margin-right: 10px;
+}
+
+.footer-nav__list{
+    list-style: none;
+}
+
+.footer-nav__item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-nav__link{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    opacity: 0.7;
+    text-transform: capitalize;
+}
+
+.footer-nav__link--active{
+    opacity: 1;
+}
+
+.footer-nav__link:hover{
+    opacity: 1;
+}
+
+.footer-nav__list:first-child{
+    margin-right: 132px;
+}
+
+.footer-nav__list:last-child{
+    margin-right: 150px;
+}
+
+.footer-email__form{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.footer-email__title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.footer-email__input{
+    width: 388px;
+    padding: 20px 32px 19px;
+    border: 2px solid #D64374;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.footer-email__input:focus{
+    outline: none;
+}
+
+.footer-email__btn{
+    padding: 18px 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+
+.footer-email__list{
+    list-style: none;
+}
+
+.footer-email__item{
+    margin-right: 16px;
+}
